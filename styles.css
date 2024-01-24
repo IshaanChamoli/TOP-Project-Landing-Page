@@ -12,7 +12,8 @@ body {
     margin-bottom: auto;
     background-color: #1f2937;
     color: white;
-    padding: 0px 100px;
+    padding-left: 60px;
+    padding-right: 100px;
     align-items: center;
 }
 
@@ -42,13 +43,107 @@ body {
 
 .main-one {
     background-color: #1f2937;
-    height: 300px;
+    padding-bottom: 30px;
 }
+
+.one-inner {
+    display: flex;
+    gap: 10px;
+    padding: 50px 100px;
+}
+.one-inner-side-left {
+    background-color: #1f2937;
+    width: 500px;
+    padding-right: 20px;
+    
+}
+
+.header-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.subtext-one {
+    color: white;
+    padding: 10px 0px;;
+}
+
+.one-inner-side-left button {
+    background-color: #3882F6;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+.one-inner-side-right {
+    background-color: gray;
+    width: 500px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 .main-two {
     background-color: white;
-    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
+
+.box-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center; 
+    margin-left: 0;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+
+.box-column {
+    text-align: center;
+    padding: 0;
+    width: 150px;
+}
+
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: blue solid 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .main-three {
     background-color: #E5E7EB;
@@ -69,6 +164,8 @@ body {
     padding-top: 110px;
     font-weight: 100;
     color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .three-in p {
@@ -80,7 +177,7 @@ body {
 
 .main-four {
     background-color: white;
-    height: 200px;
+    padding: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +186,7 @@ body {
 .inner-four {
     background-color: #3882F6;
     width: 75%;
-    height: 40%;
+    padding: 20px 0px;;
     display: flex;
     border-radius: 5px;
     justify-content: center;
@@ -124,11 +221,6 @@ body {
 }
 
 
-
-
-
-
-
 .footer {
     margin-top: auto;
     background-color: #1f2937;
@@ -138,3 +230,5 @@ body {
     font-size: 12px;
     font-weight: lighter;
 }
+
+
